@@ -1,5 +1,5 @@
 chrome.contextMenus.create({
-	title: "I want to see like the colour blind",
+	title: "Colour Blindness Experience",
 	contexts: ["all"]
 });
 
