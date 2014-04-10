@@ -3,7 +3,7 @@ document.querySelector('#save').addEventListener('click', save_options);
 
 
 function save_options() {
-	localStorage["content_script_js"] = document.getElementById("content_script_js").value;
+	localStorage["svg_data_file"] = document.getElementById("svg_data_file").value;
 
 	var status = document.getElementById("status");
 	status.innerHTML = "saving...";
@@ -14,7 +14,10 @@ function save_options() {
 
 
 function restore_options() {
-	var content_script_js = localStorage["content_script_js"];
-	document.getElementById("content_script_js").value = content_script_js;
+	var svg_data_file = '';
+	if (localStorage["svg_data_file"]) {
+		var svg_data_file = localStorage["svg_data_file"];
+	}
+	document.getElementById("svg_data_file").value = svg_data_file;
 }
 
