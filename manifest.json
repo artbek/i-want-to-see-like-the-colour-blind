@@ -1,0 +1,23 @@
+{
+	"name": "I want to see like the colour blind",
+	"version": "0.1",
+	"description": "",
+	"icons": {
+		"16": "img/icon_16.png",
+		"48": "img/icon_48.png",
+		"128": "img/icon_128.png"
+	},
+
+	"manifest_version": 2,
+
+	"permissions": [
+		"contextMenus",
+		"tabs",
+		"activeTab"
+	],
+	"background": {
+		"scripts": [
+			"js/script.js"
+		]
+	}
+}
