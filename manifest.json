@@ -13,11 +13,14 @@
 	"permissions": [
 		"contextMenus",
 		"tabs",
-		"activeTab"
+		"activeTab",
+		"https://raw.githubusercontent.com/"
 	],
 	"background": {
 		"scripts": [
 			"js/script.js"
 		]
-	}
+	},
+
+	"options_page": "options.html"
 }

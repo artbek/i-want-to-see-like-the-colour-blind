@@ -18,7 +18,7 @@
 	for (var i in l)
 		p += (parseInt(i)+1) + ': ' + l[i] + '; ';
 
-	var c = parseInt(prompt('0: off; ' + p)) - 1;
+	var c = parseInt(prompt('0: off; ' + p + " (local)")) - 1;
 	if (isNaN(c)) return;
 	if (c >= l.length) return;
 	if (c == -1) {
