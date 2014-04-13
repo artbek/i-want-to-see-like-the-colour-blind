@@ -1,6 +1,6 @@
 {
 	"name": "I want to see like the colour blind",
-	"version": "0.2",
+	"version": "1.0",
 	"description": "Experience Colour Blindness",
 	"icons": {
 		"16": "img/icon_16.png",
@@ -22,5 +22,7 @@
 		]
 	},
 
-	"options_page": "options.html"
+	"options_page": "options.html",
+
+	"web_accessible_resources": ["img/bg.jpg"]
 }
